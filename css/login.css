@@ -1,0 +1,97 @@
+/* exo-2-300 - latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Exo 2 Light'), local('Exo2-Light'),
+       url('../fonts/exo-2-v4-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/exo-2-v4-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* exo-2-regular - latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Exo 2'), local('Exo2-Regular'),
+       url('../fonts/exo-2-v4-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/exo-2-v4-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* exo-2-600 - latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Exo 2 Semi Bold'), local('Exo2-SemiBold'),
+       url('../fonts/exo-2-v4-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/exo-2-v4-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* exo-2-800 - latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Exo 2 Extra Bold'), local('Exo2-ExtraBold'),
+       url('../fonts/exo-2-v4-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/exo-2-v4-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+h1 {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 400;
+  font-size: 300%;
+  text-align: center;
+  margin: 20% 0 20px 0;
+}
+
+#login {
+  text-align: center;
+}
+
+#login input[type="text"], #login input[type="password"] {
+  display: block;
+  margin: 10px auto;
+  max-width: 170px;
+  height: 20px;
+  padding: 2px 5px;
+  border: 1px #ccc solid;
+  border-radius: 10px;
+}
+
+#login input[type="text"]:hover, #login input[type="password"]:hover {
+  border: 2px #73DEF7 solid;
+}
+
+#loginbtn {
+  background-color:#2EC7EC;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-size: 110%;
+  color: #ffffff;
+  display: block;
+  margin: 20px auto;
+  width: 12%;
+  min-width: 150px;
+  height: 30px;
+  padding: 2px 5px;
+  border: 1px #ccc solid;
+  border-radius: 20px;
+}
+
+#loginbtn:hover {
+  background-color:#ffffff;
+  color: #2EC7EC;
+}
+
+a {
+  font-family: "Exo 2", sans-serif;
+  color: #2EC7EC;
+}
+
+#msg {
+  text-align: center;
+  color: red;
+  background-color: pink;
+  font-family: "Exo 2", sans-serif;
+  margin: 5px auto;
+  padding: 10px;
+}

@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <title>Memestagram</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-auth.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/login.js"></script>
+  </head>
+  <body>
+    <h1>Memestagram</h1>
+    <div id="msg" hidden></div>
+    <div id="login">
+      <form>
+        <input type="text" name="loginid" id="loginid" placeholder="Email">
+        <input type="password" name="loginpw" id="loginpw" placeholder="Password">
+        <input type="button" id="loginbtn" value="Login">
+      </form>
+      <a href="signup.html">Don't have an account? Sign up!</a>
+    </div>
+  </body>
+</html>

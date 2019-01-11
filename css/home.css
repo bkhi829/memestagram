@@ -1,0 +1,132 @@
+/* exo-2-300 - latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Exo 2 Light'), local('Exo2-Light'),
+       url('../fonts/exo-2-v4-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/exo-2-v4-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* exo-2-regular - latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Exo 2'), local('Exo2-Regular'),
+       url('../fonts/exo-2-v4-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/exo-2-v4-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* exo-2-600 - latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Exo 2 Semi Bold'), local('Exo2-SemiBold'),
+       url('../fonts/exo-2-v4-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/exo-2-v4-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* exo-2-800 - latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Exo 2 Extra Bold'), local('Exo2-ExtraBold'),
+       url('../fonts/exo-2-v4-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/exo-2-v4-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* dancing-script-regular - latin */
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/dancing-script-v9-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Dancing Script Regular'), local('DancingScript-Regular'),
+       url('../fonts/dancing-script-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/dancing-script-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/dancing-script-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/dancing-script-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/dancing-script-v9-latin-regular.svg#DancingScript') format('svg'); /* Legacy iOS */
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #0EB7FB;
+  text-align: center;
+  height: 300px;
+  margin-top: 16px;
+  overflow:hidden;
+}
+
+header p {
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-size: 128px;
+  color: white;
+  margin-block-start: 0;
+  margin-top: 50px;
+}
+
+nav {
+  height: 30px;
+  width:98%;
+  padding:0.5% 1%;
+  box-shadow: 0 0 5px 0;
+}
+
+nav #welcome {
+  font-family: "Exo 2", sans-serif;
+  float:left;
+  margin-top:5px;
+}
+
+nav #heading {
+  position: absolute;
+  display:inline-block;
+  left:45%;
+  margin-top:5px;
+  font-family: "Exo 2", sans-serif;
+  font-size: medium;
+}
+
+nav a{
+  font-family: "Exo 2", sans-serif;
+  float:right;
+  margin-top:5px;
+}
+
+main p{
+  font-size: xx-large;
+}
+
+#addbtn{
+  position: fixed;
+  top: 90%;
+  left: 50%;
+  z-index: 10;
+  opacity: 0.2;
+  border:0;
+  border-radius: 50%;
+  color:black;
+  cursor: pointer;
+  width: 56px;
+  height: 56px;
+  padding:0;
+  font-size: 50px;
+  outline:0;
+}
+
+#addbtn:hover {
+  background-color: #0EB7FB;
+  opacity: 1;
+  color:white;
+}
+
+#addbtn:active {
+  background-color: #10A5E1;
+  opacity: 0.6;
+  color: white;
+}
